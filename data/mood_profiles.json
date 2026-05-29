@@ -1,0 +1,38 @@
+{
+  "Happy": {
+    "function_weights": {
+      "tonic": 1.0, "predominant": 0.8, "dominant": 0.9, "color": 0.6, "passing": 0.4
+    },
+    "quality_bonus": {"maj": 0.15, "add9": 0.1, "maj7": 0.05}
+  },
+  "Sad": {
+    "function_weights": {
+      "tonic": 0.9, "predominant": 0.7, "dominant": 0.6, "color": 0.9, "passing": 0.7
+    },
+    "quality_bonus": {"min": 0.15, "min7": 0.1, "m9": 0.1}
+  },
+  "Dark": {
+    "function_weights": {
+      "tonic": 0.8, "predominant": 0.7, "dominant": 0.9, "color": 0.8, "passing": 0.8
+    },
+    "quality_bonus": {"min": 0.1, "dim": 0.15, "m7b5": 0.15, "dim7": 0.1, "min7": 0.05}
+  },
+  "Epic": {
+    "function_weights": {
+      "tonic": 0.9, "predominant": 0.8, "dominant": 1.0, "color": 0.7, "passing": 0.6
+    },
+    "quality_bonus": {"maj": 0.1, "sus4": 0.1, "sus2": 0.05, "maj7": 0.05}
+  },
+  "Romantic": {
+    "function_weights": {
+      "tonic": 0.9, "predominant": 0.9, "dominant": 0.7, "color": 1.0, "passing": 0.6
+    },
+    "quality_bonus": {"maj7": 0.2, "min7": 0.15, "m9": 0.1, "add9": 0.1}
+  },
+  "Tense": {
+    "function_weights": {
+      "tonic": 0.5, "predominant": 0.8, "dominant": 1.0, "color": 0.9, "passing": 0.9
+    },
+    "quality_bonus": {"dim": 0.15, "7": 0.15, "m7b5": 0.2, "aug": 0.1}
+  }
+}

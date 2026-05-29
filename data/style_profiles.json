@@ -1,0 +1,50 @@
+{
+  "Pop": {
+    "description": "Clean, radio-friendly harmony. Mostly diatonic, light borrowed chords.",
+    "function_weights": {
+      "tonic": 0.9, "predominant": 0.8, "dominant": 0.9, "color": 0.5, "passing": 0.4
+    },
+    "preferred_qualities": ["maj", "min", "maj7", "min7", "add9"],
+    "avoid_qualities": ["dim7", "aug7", "m7b5"]
+  },
+  "R&B": {
+    "description": "Lush extended harmony, lots of maj7 / min7 / 9ths. Neo-soul flavour.",
+    "function_weights": {
+      "tonic": 0.8, "predominant": 0.9, "dominant": 0.7, "color": 1.0, "passing": 0.7
+    },
+    "preferred_qualities": ["maj7", "min7", "9", "maj9", "m9", "11", "m11", "add9"],
+    "avoid_qualities": ["sus2", "dim"]
+  },
+  "Lo-fi": {
+    "description": "Jazzy, nostalgic. maj7 and min7 everywhere. Avoid bright dominant 7ths.",
+    "function_weights": {
+      "tonic": 1.0, "predominant": 0.8, "dominant": 0.4, "color": 0.9, "passing": 0.6
+    },
+    "preferred_qualities": ["maj7", "min7", "m9", "add9", "madd9"],
+    "avoid_qualities": ["7", "dim7", "aug"]
+  },
+  "Cinematic": {
+    "description": "Wide, orchestral. Borrowed chords, modal mixture, sus chords, slash chords.",
+    "function_weights": {
+      "tonic": 0.7, "predominant": 0.7, "dominant": 0.8, "color": 1.0, "passing": 0.9
+    },
+    "preferred_qualities": ["maj7", "sus2", "sus4", "m9", "madd9", "add9"],
+    "avoid_qualities": ["dim"]
+  },
+  "Trap": {
+    "description": "Minimal, dark, minor. Simple triads or 7ths. Diminished colour chords.",
+    "function_weights": {
+      "tonic": 0.9, "predominant": 0.6, "dominant": 0.8, "color": 0.7, "passing": 0.5
+    },
+    "preferred_qualities": ["min", "min7", "dim", "m7b5", "maj"],
+    "avoid_qualities": ["maj9", "11", "m11", "sus2"]
+  },
+  "Persian": {
+    "description": "Phrygian Dominant / Hijaz scales. Exotic colour. bII is key.",
+    "function_weights": {
+      "tonic": 0.9, "predominant": 0.7, "dominant": 1.0, "color": 1.0, "passing": 0.8
+    },
+    "preferred_qualities": ["maj", "min", "7", "min7", "dim"],
+    "avoid_qualities": ["maj9", "11", "m11"]
+  }
+}
